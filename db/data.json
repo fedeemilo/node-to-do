@@ -1,0 +1,5 @@
+[
+	{ "descripcion": "Hacer la tarea", "completado": true },
+	{ "descripcion": "Cocinar cositas", "completado": true },
+	{ "descripcion": "Estudiar Wordpress", "completado": false }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "04-todo",
+  "version": "1.0.0",
+  "description": "app de tareas por hacer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Federico Milone",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^15.3.1"
+  }
+}
