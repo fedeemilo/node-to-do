@@ -1,22 +1,4 @@
-## Aplicación de comandos en Node
-
-Este es un ejercicio del curso de Node de 0 a Experto
-
-### Este ejercicio se enfoca en los siguientes temas:
-
-    - Requerir información de otros archivos
-
-    - Requerir paquetes
-
-    - Importar archivos personalizados
-
-    - NPM:
-        
-        - Install
-
-        - Uninstall
-    
-    - Package.json
+## Aplicación de comandos en Node - To Do List
 
     - Yargs
 
@@ -29,3 +11,22 @@ Este es un ejercicio del curso de Node de 0 a Experto
 ```
 npm install
 ```
+
+## Ejemplos de uso
+
+
+- Listar tareas
+
+> node app listar
+
+- Crear tarea
+
+> node app crear -d 'hacer las compras'
+
+- Actualizar tarea como realizada (true)
+
+> node app actualizar -d 'hacer las compras'
+
+- Borrar una tarea (retorna 'Tarea eliminada')
+
+> node app borrar -d 'hacer las compras'
